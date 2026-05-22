@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinasi - Terra Nusa</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../assets/style/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">TERRA<span>NUSA</span></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li class="nav-item"><a class="nav-link" href="../../index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../../cakrawala.html">Cakrawala</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="../../eksplorasi.html">Eksplorasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../../jejak-nusa.html">Jejak Nusa</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Destinasi -->
+    <section class="destinasi-header pt-5 mt-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <span class="location-label">Katalog Perjalanan</span>
+                    <h1 class="display-4 mb-3">Temukan <span>Tujuanmu</span></h1>
+                    <p class="text-white-50">Jelajahi berbagai pilihan destinasi terbaik yang telah kami kurasi khusus untuk petualangan Anda berikutnya.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="search-box p-4 rounded-4">
+                        <div class="input-group">
+                            <span class="input-group-text border-0 bg-transparent text-white-50"><i class="bi bi-search"></i></span>
+                            <input type="text" class="form-control border-0 bg-transparent text-white" placeholder="Cari pulau, kota, atau landmark...">
+                            <button class="btn btn-terra rounded-3">Cari</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="pb-5">
+        <div class="container">
+            <!-- Filter Bar -->
+            <div class="d-flex flex-wrap justify-content-between align-items-center mb-5 gap-3">
+                <div class="d-flex gap-2">
+                    <select class="form-select filter-select" onchange="location = this.value;">
+                        <option value="../../eksplorasi.html" selected>Semua Wilayah</option>
+                        <option value="Option/sumatra.html">Sumatera</option>
+                        <option value="Option/jawa.html">Jawa</option>
+                        <option value="Option/bali-nusa.html">Bali & Nusa Tenggara</option>
+                        <option value="Option/kalimantan.html">Kalimantan</option>
+                        <option value="Option/sulawesi.html">Sulawesi</option>
+                        <option value="Option/papua.html">Papua</option>
+                    </select>
+                </div>
+                <p class="text-white-50 mb-0">Menampilkan 12 Destinasi Utama</p>
+            </div>
+
+            <!-- Destinations Grid -->
+            <section id="Destinasi-Semua-Wilayah">
+            <div class="row g-4">
+                <!-- Card 7 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="dest-card">
+                        <div class="dest-img-container">
+                            <span class="badge-terra">Adventure</span>
+                            <img src="https://i.pinimg.com/736x/3c/e9/51/3ce9511d14854311372e1f5cfcd495f9.jpg" alt="Green Canyon">
+                            <div class="price-tag">Rp 750rb<span>/pax</span></div>
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <span class="location small text-uppercase"><i class="bi bi-geo-alt me-1"></i>JAWA BARAT</span>
+                                    <h5 class="mt-1">Green Canyon</h5>
+                                </div>
+                                <div class="rating-badge"><i class="bi bi-star-fill me-1"></i> 4.6</div>
+                            </div>
+                            <p class="text-white-50 small mb-4">Wisata sungai dengan tebing hijau dan air yang jernih.</p>
+                            <a href="Detail Eksplorasi/detail-canyon.html" class="btn btn-back d-inline-flex align-items-center gap-2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="dest-card">
+                        <div class="dest-img-container">
+                            <span class="badge-terra">Pantai</span>
+                            <img src="https://i.pinimg.com/736x/95/49/d3/9549d34b1d41c949745b72f5fba1b85a.jpg" alt="Nusa Penida">
+                            <div class="price-tag">Rp 1.9jt<span>/pax</span></div>
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <span class="location small text-uppercase"><i class="bi bi-geo-alt me-1"></i>BALI & NUSA TENGGARA</span>
+                                    <h5 class="mt-1">Nusa Penida Escape</h5>
+                                </div>
+                                <div class="rating-badge"><i class="bi bi-star-fill me-1"></i> 4.9</div>
+                            </div>
+                            <p class="text-white-50 small mb-4">Pulau eksotis dengan tebing laut dan panorama Instagramable.</p>
+                            <a href="Detail Eksplorasi/detail-nusa-penida.html" class="btn btn-back d-inline-flex align-items-center gap-2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="dest-card">
+                        <div class="dest-img-container">
+                            <span class="badge-terra">Eksplorasi</span>
+                            <img src="https://i.pinimg.com/736x/62/55/65/625565b35ccffa909391271a50e9f9c1.jpg" alt="Derawan">
+                            <div class="price-tag">Rp 2.4jt<span>/pax</span></div>
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <span class="location small text-uppercase"><i class="bi bi-geo-alt me-1"></i>KALIMANTAN TIMUR</span>
+                                    <h5 class="mt-1">Derawan Island Trip</h5>
+                                </div>
+                                <div class="rating-badge"><i class="bi bi-star-fill me-1"></i> 4.8</div>
+                            </div>
+                            <p class="text-white-50 small mb-4">Snorkeling bersama penyu di laut tropis yang tenang.</p>
+                            <a href="Detail Eksplorasi/detail-derawan.html" class="btn btn-back d-inline-flex align-items-center gap-2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="dest-card">
+                        <div class="dest-img-container">
+                            <span class="badge-terra">Diving</span>
+                            <img src="https://i.pinimg.com/736x/be/d3/2a/bed32a485dca0929d290bf4b9f1a2230.jpg" alt="Wakatobi">
+                            <div class="price-tag">Rp 2.9jt<span>/pax</span></div>
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <span class="location small text-uppercase"><i class="bi bi-geo-alt me-1"></i>SULAWESI TENGGARA</span>
+                                    <h5 class="mt-1">Wakatobi Marine Park</h5>
+                                </div>
+                                <div class="rating-badge"><i class="bi bi-star-fill me-1"></i> 5.0</div>
+                            </div>
+                            <p class="text-white-50 small mb-4">Destinasi diving kelas dunia dengan terumbu karang yang memukau.</p>
+                            <a href="Detail Eksplorasi/detail-wakatobi.html" class="btn btn-back d-inline-flex align-items-center gap-2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 11 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="dest-card">
+                        <div class="dest-img-container">
+                            <span class="badge-terra">Terfavorit</span>
+                            <img src="https://i.pinimg.com/1200x/10/b3/94/10b394da8cfc52b1316ed09f4d177db2.jpg" alt="Lembah Baliem">
+                            <div class="price-tag">Rp 3.5jt<span>/pax</span></div>
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <span class="location small text-uppercase"><i class="bi bi-geo-alt me-1"></i>PAPUA</span>
+                                    <h5 class="mt-1">Lembah Baliem Journey</h5>
+                                </div>
+                                <div class="rating-badge"><i class="bi bi-star-fill me-1"></i> 4.9</div>
+                            </div>
+                            <p class="text-white-50 small mb-4">Petualangan alam dan budaya khas pegunungan Papua.</p>
+                            <a href="Detail Eksplorasi/detail-baliem.html" class="btn btn-back d-inline-flex align-items-center gap-2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 12 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="dest-card">
+                        <div class="dest-img-container">
+                            <span class="badge-terra">Sejarah</span>
+                            <img src="https://i.pinimg.com/736x/60/a9/6a/60a96a43733b7e0d4361a036973a65d5.jpg" alt="Benteng Rotterdam">
+                            <div class="price-tag">Rp 680rb<span>/pax</span></div>
+                        </div>
+                        <div class="card-body-custom">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <div>
+                                    <span class="location small text-uppercase"><i class="bi bi-geo-alt me-1"></i>MAKASSAR</span>
+                                    <h5 class="mt-1">Benteng Rotterdam</h5>
+                                </div>
+                                <div class="rating-badge"><i class="bi bi-star-fill me-1"></i> 4.5</div>
+                            </div>
+                            <p class="text-white-50 small mb-4">Wisata sejarah peninggalan kolonial dengan arsitektur khas.</p>
+                            <a href="Detail Eksplorasi/detail-benteng.html" class="btn btn-back d-inline-flex align-items-center gap-2">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- Pagination -->
+            <nav class="mt-5">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link bg-dark border-secondary text-white" href="../../eksplorasi.html">Prev</a></li>
+                    <li class="page-item"><a class="page-link bg-dark border-secondary text-white" href="../../eksplorasi.html">1</a></li>
+                    <li class="page-item active"><a class="page-link bg-primary-blue border-primary-blue text-dark" href="#">2</a></li>
+                    <li class="page-item disabled"><a class="page-link bg-dark border-secondary text-white" href="#">Next</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- FOOTER & SUBSCRIBE SECTION -->
+    <footer class="footer-section">
+        <div class="container footer-top py-5">
+            <div class="row gy-5">
+                <!-- Brand & Info -->
+                <div class="col-lg-4 col-md-12">
+                    <a class="navbar-brand mb-3 d-block" href="#">TERRA<span>NUSA</span></a>
+                    <p class="footer-text">
+                        Terra Nusa adalah platform eksplorasi wisata nusantara yang berfokus pada keaslian budaya dan keindahan alam tersembunyi di Indonesia.
+                    </p>
+                    <div class="social-links d-flex gap-3">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="footer-heading">Navigasi</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#">Beranda</a></li>
+                        <li><a href="#">Cakrawala</a></li>
+                        <li><a href="#">Eksplorasi</a></li>
+                        <li><a href="#">Jejak Nusa</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="footer-heading">Hubungi Kami</h5>
+                    <ul class="list-unstyled footer-contact">
+                        <li><i class="bi bi-geo-alt me-2"></i> Jakarta, Indonesia</li>
+                        <li><i class="bi bi-envelope me-2"></i> info@terranusa.com</li>
+                        <li><i class="bi bi-telephone me-2"></i> +62 812 3456 7890</li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="footer-heading">Newsletter</h5>
+                    <p class="small text-white-50 mb-3">Dapatkan info destinasi rahasia setiap minggu.</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Email Anda">
+                        <button class="btn btn-terra">Daftar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom py-4">
+            <div class="container text-center">
+                <p class="copyright mb-0">© 2026 Terra Nusa. Menjaga Akar Nusantara.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/script/script.js"></script>
+</body>
+</html>
