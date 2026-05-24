@@ -283,8 +283,6 @@ h1, h2, h3, h4, .brand-font {
 /* Header Hero Area */
 .cakrawala-header {
     padding: 120px 0 60px;
-    background: linear-gradient(rgba(2, 6, 23, 0.4), rgba(2, 6, 23, 0.95)), 
-                url('https://images.unsplash.com/photo-1564392391983-3652192e9123?q=80&w=1920&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
 }
