@@ -800,8 +800,8 @@ h1, h2, h3, h4, .brand-font {
    HALAMAN DETAIL EKSPLORASI
    ========================*/
 
-/* 1. Header Banner Utama */
-.detail-header {
+/* Header Banner */
+.detail-header-lawang {
     height: 60vh;
     background: linear-gradient(rgba(2, 6, 23, 0.2), rgba(2, 6, 23, 0.9)), 
                 url('https://i.pinimg.com/1200x/94/00/86/9400868d2634bb2a41644c0f9caf9512.jpg');
