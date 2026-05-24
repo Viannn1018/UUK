@@ -59,7 +59,7 @@ h1, h2, h3, h4, .brand-font {
    MENU NAVBAR ACTIVE
    ==================*/
 
-/* Styling Dasar Semua Menu Navigasi */
+/* Styling Dasar */
 .navbar-nav .nav-item {
     position: relative;
     padding: 0 5px;
@@ -73,7 +73,7 @@ h1, h2, h3, h4, .brand-font {
     padding-bottom: 6px !important; 
 }
 
-/* Efek Hover (Saat Kursor Melewat) */
+/* Efek Hover */
 .navbar-nav .nav-link:hover {
     color: #0dcaf0 !important; 
 }
@@ -564,9 +564,9 @@ h1, h2, h3, h4, .brand-font {
     margin-bottom: 0;
 }
 
-/* ========================================
-   BLOK VIDEO DUA KOLOM & DESKRIPSI SAMPING
-   ======================================== */
+/* =========================
+   VIDEO & DESKRIPSI SAMPING
+   ========================= */
    
 .jurnal-video-block {
     margin: 5.5rem 0;
