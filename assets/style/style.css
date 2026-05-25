@@ -1,13 +1,5 @@
-:root {
-    --bg-dark: #020617;        
-    --bg-card: #0f172a;        
-    --primary-blue: #38bdf8;   
-    --accent-terra: #d4a373;   
-    --text-muted: #94a3b8;
-}
-
 body {
-    background-color: var(--bg-dark);
+    background-color: #020617;
     color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
     overflow-x: hidden;
@@ -39,7 +31,7 @@ h1, h2, h3, h4, .brand-font {
     letter-spacing: 1px;
 }
 
-.navbar-brand span { color: var(--primary-blue); }
+.navbar-brand span { color: #38bdf8; }
 
 
 .nav-link {
@@ -51,7 +43,7 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .nav-link:hover { 
-    color: var(--primary-blue) !important; 
+    color: #38bdf8 !important; 
     opacity: 1;
 }
 
@@ -59,7 +51,7 @@ h1, h2, h3, h4, .brand-font {
    MENU NAVBAR ACTIVE
    ==================*/
 
-/* Styling Dasar */
+/* Styling Dasar Semua Menu Navigasi */
 .navbar-nav .nav-item {
     position: relative;
     padding: 0 5px;
@@ -73,7 +65,7 @@ h1, h2, h3, h4, .brand-font {
     padding-bottom: 6px !important; 
 }
 
-/* Efek Hover */
+/* Efek Hover (Saat Kursor Melewat) */
 .navbar-nav .nav-link:hover {
     color: #0dcaf0 !important; 
 }
@@ -98,8 +90,8 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .btn-terra {
-    background: var(--primary-blue);
-    color: var(--bg-dark);
+    background: #38bdf8;
+    color: #020617;
     padding: 10px 25px;
     border-radius: 50px;
     font-weight: 700;
@@ -131,17 +123,17 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .hero h1 span {
-    color: var(--primary-blue);
+    color: #38bdf8;
     font-style: italic;
 }
 
 /* CONTENT SECTION */
 .section-dest {
-    background: linear-gradient(to bottom, var(--bg-dark), #0f172a);
+    background: linear-gradient(to bottom, #020617, #0f172a);
 }
 
 .location-label {
-    color: var(--primary-blue);
+    color: #38bdf8;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 12px;
@@ -149,7 +141,7 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .view-all {
-    color: var(--primary-blue);
+    color: #38bdf8;
     text-decoration: none;
     font-weight: 600;
     transition: 0.3s;
@@ -168,7 +160,7 @@ h1, h2, h3, h4, .brand-font {
 
 .dest-card:hover {
     transform: translateY(-10px);
-    border-color: var(--primary-blue);
+    border-color: #38bdf8;
 }
 
 .dest-img-container {
@@ -191,13 +183,13 @@ h1, h2, h3, h4, .brand-font {
     padding: 4px 12px;
     border-radius: 50px;
     font-size: 11px;
-    border: 1px solid var(--primary-blue);
+    border: 1px solid #38bdf8;
 }
 
 .card-body-custom { padding: 25px; }
 
 .location {
-    color: var(--primary-blue);
+    color: #38bdf8;
     font-size: 12px;
     margin-bottom: 8px;
     display: block;
@@ -213,7 +205,7 @@ h1, h2, h3, h4, .brand-font {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 25px;
-    color: var(--primary-blue);
+    color: #38bdf8;
 }
 
 .footer-text {
@@ -225,7 +217,7 @@ h1, h2, h3, h4, .brand-font {
     width: 40px;
     height: 40px;
     background: rgba(56, 189, 248, 0.1);
-    color: var(--primary-blue);
+    color: #38bdf8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -235,8 +227,8 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .social-links a:hover {
-    background: var(--primary-blue);
-    color: var(--bg-dark);
+    background: #38bdf8;
+    color: #020617;
 }
 
 .footer-links li { margin-bottom: 12px; }
@@ -245,7 +237,7 @@ h1, h2, h3, h4, .brand-font {
     text-decoration: none;
     transition: 0.3s;
 }
-.footer-links a:hover { color: var(--primary-blue); padding-left: 5px; }
+.footer-links a:hover { color: #38bdf8; padding-left: 5px; }
 
 .footer-contact li {
     color: #94a3b8;
@@ -269,7 +261,7 @@ h1, h2, h3, h4, .brand-font {
 
 .input-group .form-control:focus {
     box-shadow: none;
-    border-color: var(--primary-blue);
+    border-color: #38bdf8;
 }
 
 
@@ -294,7 +286,7 @@ h1, h2, h3, h4, .brand-font {
 
 .cakrawala-header h1 span {
     font-style: italic;
-    color: var(--primary-blue, #38bdf8);
+    color: #38bdf8;
 }
 
 .btn-filter {
@@ -310,8 +302,8 @@ h1, h2, h3, h4, .brand-font {
 
 .btn-filter:hover, .btn-filter.active {
     color: #ffffff;
-    background: var(--primary-blue, #38bdf8);
-    border-color: var(--primary-blue, #38bdf8);
+    background: #38bdf8;
+    border-color: #38bdf8;
     box-shadow: 0 4px 15px rgba(56, 189, 248, 0.25);
 }
 
@@ -382,7 +374,7 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .cakrawala-card:hover h4, .cakrawala-card:hover h2 {
-    color: var(--primary-blue, #38bdf8) !important;
+    color: #38bdf8 !important;
 }
 
 .cakrawala-card:hover .small-link {
@@ -564,7 +556,7 @@ h1, h2, h3, h4, .brand-font {
 
 /* =========================
    VIDEO & DESKRIPSI SAMPING
-   ========================= */
+   =========================*/
    
 .jurnal-video-block {
     margin: 5.5rem 0;
@@ -727,7 +719,7 @@ h1, h2, h3, h4, .brand-font {
 .filter-select:focus {
     background-color: #1e293b;
     color: white;
-    border-color: var(--primary-blue);
+    border-color: #38bdf8;
     box-shadow: 0 0 0 0.25rem rgba(56, 189, 248, 0.1);
     outline: none;
 }
@@ -742,8 +734,8 @@ h1, h2, h3, h4, .brand-font {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    background: var(--primary-blue);
-    color: var(--bg-dark);
+    background: #38bdf8;
+    color: #020617;
     padding: 5px 15px;
     border-radius: 8px;
     font-weight: 800;
@@ -789,7 +781,7 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .bg-primary-blue {
-    background-color: var(--primary-blue) !important;
+    background-color: #38bdf8 !important;
 }
 
 
@@ -798,7 +790,7 @@ h1, h2, h3, h4, .brand-font {
    HALAMAN DETAIL EKSPLORASI
    ========================*/
 
-/* Header Banner */
+/* 1. Header Banner Utama */
 .detail-header-lawang {
     height: 60vh;
     background: linear-gradient(rgba(2, 6, 23, 0.2), rgba(2, 6, 23, 0.9)), 
@@ -949,7 +941,7 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .itinerary-timeline {
-    border-left: 2px solid var(--primary-blue); 
+    border-left: 2px solid #38bdf8; 
     position: relative;
     padding-left: 25px;
 }
@@ -967,13 +959,13 @@ h1, h2, h3, h4, .brand-font {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: var(--primary-blue);
+    background: #38bdf8;
     box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.3);
 }
 
 .btn-back {
-    color: var(--text-muted, #94a3b8);
-    background: rgba(255, 255, 255, 0.03);
+    color: var(--text-muted, #7d92af);
+    background: rgba(255, 255, 255, 0.07);
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 10px 22px;
     border-radius: 50px;
@@ -989,9 +981,9 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .btn-back:hover {
-    color: var(--primary-blue, #38bdf8);
+    color: #38bdf8;
     background: rgba(56, 189, 248, 0.08);
-    border-color: var(--primary-blue, #38bdf8);
+    border-color: #38bdf8;
     transform: translateY(-2px);
 }
 
@@ -1008,13 +1000,13 @@ h1, h2, h3, h4, .brand-font {
 }
 
 .sticky-sidebar .form-control {
-    background-color: var(--bg-dark) !important;
+    background-color: #020617 !important;
     border: 1px solid #334155 !important;
     color: #ffffff !important;
 }
 
 .sticky-sidebar .form-control:focus {
-    border-color: var(--primary-blue) !important;
+    border-color: #38bdf8 !important;
     box-shadow: 0 0 0 0.25rem rgba(56, 189, 248, 0.15);
 }
 
@@ -1035,7 +1027,7 @@ h1, h2, h3, h4, .brand-font {
 
 .stats-card:hover {
     background: rgba(56, 189, 248, 0.1);
-    border-color: var(--primary-blue);
+    border-color: #38bdf8;
 }
 
 .jejak-card {
@@ -1048,7 +1040,7 @@ h1, h2, h3, h4, .brand-font {
 
 .jejak-card:hover {
     transform: translateY(-5px);
-    border-color: var(--primary-blue);
+    border-color: #38bdf8;
 }
 
 .avatar {
@@ -1056,7 +1048,7 @@ h1, h2, h3, h4, .brand-font {
     height: 45px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid var(--primary-blue);
+    border: 2px solid #38bdf8;
 }
 
 .badge-jejak-terra {
@@ -1067,12 +1059,12 @@ h1, h2, h3, h4, .brand-font {
     padding: 4px 12px;
     border-radius: 50px;
     font-size: 11px;
-    border: 1px solid var(--primary-blue);
+    border: 1px solid #38bdf8;
 }
 
 .cta-community {
     background: linear-gradient(45deg, #0f172a, #1e293b);
-    border: 1px dashed var(--primary-blue);
+    border: 1px dashed #38bdf8;
 }
 
 .jejak-header-card h6 {
